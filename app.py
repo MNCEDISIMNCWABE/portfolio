@@ -28,7 +28,7 @@ lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fc
 img_contact_form = Image.open("images/yt_contact_form.png")
 img_lottie_animation = Image.open("images/yt_lottie_animation.png")
 img_loop = Image.open("images/loop.jpeg")
-img_tal = Image.open("images/tal.jpeg")
+img_tal = Image.open("images/tal2.png")
 img_mcg = Image.open("images/mcg.jpeg")
 
 # ---- HEADER SECTION ----
@@ -78,11 +78,41 @@ with st.container():
         st.write(
             """
             Sep 2022 - present
-            - Google Analytics · Google Data Studio · Google Cloud Platform (GCP) · Data Science · Machine Learning · 
-            - Data Analysis · Python · Statistics · Data Visualization · SQL · Google BigQuery
+            
+            **Tools & Skills**
+            Google Analytics · Google Data Studio · Google Cloud Platform (GCP) · Data Science · Machine Learning · 
+            Data Analysis · Python · Statistics · Data Visualization · SQL · Google BigQuery
             """
         )
         st.markdown("[Watch Video...](https://youtu.be/TXSOitGoINE)") 
+        
+with st.container():
+    st.write("---")
+    st.header("Experience")
+    st.write("##")
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+        st.image(img_tal)
+    with text_column:
+        st.subheader("Data Scientist")
+        st.write(
+            """
+            Aug 2021 - Aug 2022
+            - Build and implement Machine Learning and Statistical modelling customer segmentation solutions to segment and predict the shopping behaviour of millions of customers.
+            - Implement a time series sales forecasting model and track daily performance.
+            - Use Machine Learning to model and predict customer propensity to purchase.
+            - Build automated dashboards to generate insights, drive and optimize business productivity and efficiency across different business units.
+            - Implement data analytics solutions to optimize promotions revenue.
+            - Prescriptive modelling and price optimization for maximizing revenue and margin.
+            - Automate manual business processes to improve efficiency and productivity. 
+            
+            **Tools & Skills:**
+            Python · R · MySQL · PostgreSQL · Google Cloud Platform · Google Big Query · Google Data Studio · 
+            MS Excel · QlikView/QlikSense · MS Power BI · Google Slides · Google Sheets
+            """
+        )
+        st.markdown("[Watch Video...](https://youtu.be/TXSOitGoINE)")         
+  
 
      
 # ---- PROJECTS ----
