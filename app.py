@@ -25,6 +25,8 @@ local_css("style/style.css")
 
 # ---- LOAD ASSETS ----
 lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
+lottie_anime_json_1 = load_lottie_url("https://assets3.lottiefiles.com/private_files/lf30_7anyyhq6.json")
+lottie_anime_json_2 = load_lottie_url("https://assets8.lottiefiles.com/packages/lf20_iv4dsx3q.json")
 img_contact_form = Image.open("images/yt_contact_form.png")
 img_lottie_animation = Image.open("images/yt_lottie_animation.png")
 img_loop = Image.open("images/loop.png")
@@ -80,7 +82,9 @@ with st.container():
         )
         #st.write("[YouTube Channel >](https://youtube.com/c/CodingIsFun)")
     with right_column:
-        st_lottie(lottie_coding, height=300, key="coding")
+        st_lottie(lottie_anime_json_1, key = "magic", width=300, height=250) 
+        st_lottie(lottie_anime_json_2, key = "hands", width=300, height=300)
+        #st_lottie(lottie_coding, height=300, key="coding")
         
 # ---- EXPERIENCE ----
 with st.container():
