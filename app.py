@@ -98,7 +98,7 @@ with st.container():
             
             **Tools & Skills:**
             Python · R · Machine Learning · Predictive & Prescriptive Analytics · Time Series Forecasting · Data Analysis · Data Visualization · MySQL · 
-            PostgreSQL · Google Cloud Platform · Google Big Query · Looker Studio (Data Studio) · MS Excel · QlikView/QlikSense ·
+            PostgreSQL · Google Cloud Platform (GCP) · Google Big Query · Looker Studio (Data Studio) · MS Excel · QlikView/QlikSense ·
             MS Power BI · Google Slides · Google Sheets
             """
         )
