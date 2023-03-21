@@ -53,7 +53,7 @@ with st.container():
         st.write(
             """
             | Tool                                                    | Estimated Hours of Usage                               |
-            | -------|------------------------------------------------|------------------------------------------------------- |
+            | --------------------------------------------------------|------------------------------------------------------- |
             | SQL (MS SQL Server, MySQL, Google BigQuery, PostgreSQL) | 3500                                                   |
             | Python (incl. pandas, numpy, scipy, sklearn, datetime)  | 1800                                                   |
             | Google Sheets, Microsoft Excel                          | 1200                                                   |
