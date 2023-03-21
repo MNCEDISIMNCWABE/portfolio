@@ -47,7 +47,7 @@ with st.container():
 # ---- WHAT I DO ----
 with st.container():
     st.write("---")
-    left_column, right_column = st.columns((7,5))
+    left_column, right_column = st.columns((10,5))
     with left_column:
         st.header("Summary of my skillsets")
         st.write(
