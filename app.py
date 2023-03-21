@@ -47,7 +47,7 @@ with st.container():
 # ---- WHAT I DO ----
 with st.container():
     st.write("---")
-    left_column, right_column = st.columns(2)
+    left_column = st.columns(1)
     with left_column:
         st.header("Summary of my skillsets")
         st.write(
@@ -74,13 +74,13 @@ with st.container():
             | Exponential Smoothing Models (time series prediction)   | 35                                                     | 
             | Web Scraping (Python BeautifulSoup & Selenium)          | 30                                                     |
             | Git                                                     | 15                                                     |
-            | ...list TBC                                             | 0                                                     |
+            | ...list TBC                                             | 0                                                      |
  
             """
         )
         #st.write("[YouTube Channel >](https://youtube.com/c/CodingIsFun)")
-    with right_column:
-        st_lottie(lottie_coding, height=300, key="coding")
+    #with right_column:
+        #st_lottie(lottie_coding, height=300, key="coding")
         
 # ---- EXPERIENCE ----
 with st.container():
