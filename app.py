@@ -116,7 +116,7 @@ with st.container():
            
             **Tools & Skills:**
             Python · Machine Learning · MS SQL Server · PostgreSQL · MS Power BI · MS Excel · Data Analysis · 
-            Data Visualization · MS Power Automate · Speech Analytics · 
+            Data Visualization · MS Power Automate · Speech Analytics · Nexidia Analytics
             """
         )
         st.markdown("[Watch Video...](https://youtu.be/TXSOitGoINE)")   
