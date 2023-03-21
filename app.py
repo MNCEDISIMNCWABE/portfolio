@@ -29,7 +29,7 @@ img_contact_form = Image.open("images/yt_contact_form.png")
 img_lottie_animation = Image.open("images/yt_lottie_animation.png")
 img_loop = Image.open("images/loop.jpeg")
 img_tal = Image.open("images/tal2.png")
-img_mcg = Image.open("images/mcg.jpeg")
+img_mcg = Image.open("images/mcg2.jpg")
 
 # ---- HEADER SECTION ----
 with st.container():
@@ -79,9 +79,9 @@ with st.container():
             """
             Sep 2022 - present
             
-            **Tools & Skills**
-            Google Analytics · Google Data Studio · Google Cloud Platform (GCP) · Data Science · Machine Learning · 
-            Data Analysis · Python · Statistics · Data Visualization · SQL · Google BigQuery
+            **Tools & Skills:**
+            Google Analytics · Google Data Studio · Google Cloud Platform (GCP) · Data Science · Machine Learning ·
+            Data Analysis · Python · Statistics · Data Visualization · SQL · Google BigQuery · Time Series Forecasting 
             """
         )
         st.markdown("[Watch Video...](https://youtu.be/TXSOitGoINE)") 
@@ -95,20 +95,31 @@ with st.container():
         st.write(
             """
             Aug 2021 - Aug 2022
-            - Build and implement Machine Learning and Statistical modelling customer segmentation solutions to segment and predict the shopping behaviour of millions of customers.
-            - Implement a time series sales forecasting model and track daily performance.
-            - Use Machine Learning to model and predict customer propensity to purchase.
-            - Build automated dashboards to generate insights, drive and optimize business productivity and efficiency across different business units.
-            - Implement data analytics solutions to optimize promotions revenue.
-            - Prescriptive modelling and price optimization for maximizing revenue and margin.
-            - Automate manual business processes to improve efficiency and productivity. 
             
             **Tools & Skills:**
-            Python · R · MySQL · PostgreSQL · Google Cloud Platform · Google Big Query · Google Data Studio · 
-            MS Excel · QlikView/QlikSense · MS Power BI · Google Slides · Google Sheets
+            Python · R · Machine Learning · Predictive & Prescriptive Analytics · Time Series Forecasting · Data Analysis · Data Visualization · MySQL · 
+            PostgreSQL · Google Cloud Platform · Google Big Query · Looker Studio (Data Studio) · MS Excel · QlikView/QlikSense ·
+            MS Power BI · Google Slides · Google Sheets
             """
         )
-        st.markdown("[Watch Video...](https://youtu.be/TXSOitGoINE)")         
+        st.markdown("[Watch Video...](https://youtu.be/TXSOitGoINE)")  
+        
+with st.container():
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+        st.image(img_mcg)
+    with text_column:
+        st.subheader("Data Analyst | Specialist Customer Quality")
+        st.write(
+            """
+           Feb 2020 - Jul 2021
+           
+            **Tools & Skills:**
+            Python · Machine Learning · MS SQL Server · PostgreSQL · MS Power BI · MS Excel · Data Analysis · 
+            Data Visualization · MS Power Automate · Speech Analytics · 
+            """
+        )
+        st.markdown("[Watch Video...](https://youtu.be/TXSOitGoINE)")   
   
 
      
