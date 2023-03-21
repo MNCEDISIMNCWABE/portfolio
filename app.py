@@ -55,14 +55,21 @@ with st.container():
             | Tool                                                    | Estimated Hours of Usage                               |
             | --------------------------------------------------------|------------------------------------------------------- |
             | SQL (MS SQL Server, MySQL, Google BigQuery, PostgreSQL) | 3500                                                   |
+            | Data Visualization (dashboards)                         | 2000                                                   |
+            | Data Studio, Power BI, Tableau                          | 2000                                                   |
             | Python (incl. pandas, numpy, scipy, sklearn, datetime)  | 1800                                                   |
             | Google Sheets, Microsoft Excel                          | 1500                                                   |
             | Supervised Learning                                     | 1200                                                   |
             | Clustering algorithms (K-means, DBSCAN, hierarchical)   | 1000                                                   |
-            | Theory of Experimental Design (hypothesis testing etc)  | 350                                                    | 
-            | Recommender Engines (incl. Collaborative Filtering)     | 100                                                    | 
+            | Prophet, ARIMA, SARIMA models (time series prediction)  | 800                                                    |
+            | Theory of Experimental Design (hypothesis testing etc.) | 350                                                    | 
+            | Recommender Engines (incl. Collaborative Filtering)     | 105                                                    | 
+            | Streamlit                                               | 100                                                    | 
             | TensorFlow + Keras                                      | 80                                                     | 
+            | Natural Language Processing                             | 75                                                     |
             | Uplift Modelling                                        | 40                                                     | 
+            | Web Scraping (Python BeautifulSoup & Selenium)          | 30                                                     |
+            | Git                                                     | 15                                                     |
  
             """
         )
