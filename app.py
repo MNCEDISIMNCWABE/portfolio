@@ -47,18 +47,23 @@ with st.container():
 # ---- WHAT I DO ----
 with st.container():
     st.write("---")
-    left_column, middle_column = st.columns((1, 2))
+    left_column, right_column = st.columns(2)
     with left_column:
         st.header("Summary of my skillsets")
-        st.subheader("Tool")
-        st.write("- Python\n- Excel\n- Power BI\n- GCP")
-    with middle_column:
-        st.subheader("Estimated Hours of Usage")
-        hours = [12, 23, 45, 50]
-        for i, tool in enumerate(["Python", "Excel", "Power BI", "GCP"]):
-            st.write(f"{tool}: {hours[i]} hours")        
-    #with right_column:
-       # st_lottie(lottie_coding, height=300, key="coding")
+        st.write("##")
+        st.write(
+            """
+            Tool            Estimated Hours of Usage         
+            - Python        12
+            - Excel         20
+            - GCP           50
+            - R             60
+         
+            """
+        )
+        st.write("[YouTube Channel >](https://youtube.com/c/CodingIsFun)")
+    with right_column:
+        st_lottie(lottie_coding, height=300, key="coding")
         
 # ---- EXPERIENCE ----
 with st.container():
