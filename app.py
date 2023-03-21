@@ -30,12 +30,16 @@ img_lottie_animation = Image.open("images/yt_lottie_animation.png")
 
 # ---- HEADER SECTION ----
 with st.container():
-    st.subheader("Hi, I am Sven :wave:")
-    st.title("A Data Analyst From Germany")
+    st.subheader("Hi, I am Mncedisi Mncwabe :wave:")
+    st.title("A Data Scientist From South Africa")
     st.write(
-        "I am passionate about finding ways to use Python and VBA to be more efficient and effective in business settings."
+        """I've been working for just over 3 years on practical and theoretical Data Science and Analytics projects. 
+           I'm passionate about learning new concepts, especially in Data Science or Analytics space to continuously build on my previous knowledge.
+           My professional interests are using my toolbox of programming, machine learning, statistics, and probability to solve challenging problems.
+           These problems can be theoretical or practical in nature.
+           """
     )
-    st.write("[Learn More >](https://pythonandvba.com)")
+    st.write("[LinkedIn Profile>](https://www.linkedin.com/in/mncedisi-mncwabe-a1b087171/)")
 
 # ---- WHAT I DO ----
 with st.container():
@@ -98,7 +102,7 @@ with st.container():
 
     # Documention: https://formsubmit.co/ !!! CHANGE EMAIL ADDRESS !!!
     contact_form = """
-    <form action="https://formsubmit.co/YOUR@MAIL.COM" method="POST">
+    <form action="https://formsubmit.co/leemncwabe29@gmail.com" method="POST">
         <input type="hidden" name="_captcha" value="false">
         <input type="text" name="name" placeholder="Your name" required>
         <input type="email" name="email" placeholder="Your email" required>
