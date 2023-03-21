@@ -39,7 +39,7 @@ with st.container():
            These problems can be theoretical or practical in nature.
            """
     )
-    st.write("[LinkedIn Profile>](https://www.linkedin.com/in/mncedisi-mncwabe-a1b087171/)")
+    st.write("[LinkedIn Profile >](https://www.linkedin.com/in/mncedisi-mncwabe-a1b087171/)")
 
 # ---- WHAT I DO ----
 with st.container():
