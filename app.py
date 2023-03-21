@@ -52,7 +52,7 @@ with st.container():
         st.header("Summary of my skillsets")
         st.write(
             """
-            | Tool                                                    | Estimated Hrs Of Usage                               |
+            | Tool                                                    | Estimated Hours Of Usage                               |
             | --------------------------------------------------------|------------------------------------------------------- |
             | SQL (MS SQL Server, MySQL, Google BigQuery, PostgreSQL) | 3500                                                   |
             | Data Visualization (dashboards)                         | 2000                                                   |
@@ -62,7 +62,9 @@ with st.container():
             | Supervised Learning                                     | 1200                                                   |
             | Clustering algorithms (K-means, DBSCAN, hierarchical)   | 1000                                                   |
             | Prophet, ARIMA, SARIMA models (time series prediction)  | 800                                                    |
+            | R                                                       | 600                                                    |
             | Theory of Experimental Design (hypothesis testing etc.) | 350                                                    | 
+            | SAS                                                     | 200                                                    | 
             | Recommender Engines (incl. Collaborative Filtering)     | 105                                                    | 
             | Streamlit                                               | 100                                                    | 
             | Linear Optimisation                                     | 85                                                     | 
