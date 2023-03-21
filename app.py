@@ -27,7 +27,7 @@ local_css("style/style.css")
 lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
 img_contact_form = Image.open("images/yt_contact_form.png")
 img_lottie_animation = Image.open("images/yt_lottie_animation.png")
-img_loop = Image.open("images/loop.jpeg")
+img_loop = Image.open("images/loop.png")
 img_tal = Image.open("images/tal2.png")
 img_mcg = Image.open("images/mcg2.jpg")
 
