@@ -57,11 +57,9 @@ with st.container():
             | SQL (MS SQL Server, MySQL, Google BigQuery, PostgreSQL) | 3500                                                   |
             | Python (incl. pandas, numpy, scipy, sklearn, datetime)  | 1800                                                   |
             | Google Sheets, Microsoft Excel                          | 1200                                                   |
-            | Supervised Learning & general Machine-Learning theory 
-            (transfer learning, classication/regression: neural nets, 
-            GBM family, random forest, tree-based models, linear 
-            models, KNN, bias/variance tradeoff, cross-validation etc.)| 700                                                   |
-
+            | Supervised Learning & general Machine-Learning theory   | 700                                                    |
+            |                                                         |                                                        |
+ 
             """
         )
         #st.write("[YouTube Channel >](https://youtube.com/c/CodingIsFun)")
