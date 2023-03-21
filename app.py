@@ -52,7 +52,7 @@ with st.container():
         st.header("Summary of my skillsets")
         st.write(
             """
-            | Tool                                                    | Estimated Hours of Usage                               |
+            | Tool                                                    | Estimated Hrs Of Usage                               |
             | --------------------------------------------------------|------------------------------------------------------- |
             | SQL (MS SQL Server, MySQL, Google BigQuery, PostgreSQL) | 3500                                                   |
             | Data Visualization (dashboards)                         | 2000                                                   |
@@ -65,9 +65,11 @@ with st.container():
             | Theory of Experimental Design (hypothesis testing etc.) | 350                                                    | 
             | Recommender Engines (incl. Collaborative Filtering)     | 105                                                    | 
             | Streamlit                                               | 100                                                    | 
-            | TensorFlow + Keras                                      | 80                                                     | 
+            | Linear Optimisation                                     | 85                                                     | 
+            | TensorFlow, Keras                                       | 80                                                     | 
             | Natural Language Processing                             | 75                                                     |
             | Uplift Modelling                                        | 40                                                     | 
+            | Exponential Smoothing Models (time series prediction)   | 35                                                     | 
             | Web Scraping (Python BeautifulSoup & Selenium)          | 30                                                     |
             | Git                                                     | 15                                                     |
  
