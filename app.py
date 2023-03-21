@@ -5,7 +5,7 @@ from PIL import Image
 
 
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
-st.set_page_config(page_title="Mncedisi's Webpage", page_icon=":tada:", layout="wide")
+st.set_page_config(page_title="Mncedisi's Webpage", page_icon=":white_flower:", layout="wide")
 
 
 def load_lottieurl(url):
@@ -33,7 +33,7 @@ img_mcg = Image.open("images/mcg3.jpg")
 
 # ---- HEADER SECTION ----
 with st.container():
-    st.subheader("Hi, I am Mncedisi Mncwabe :wave:")
+    st.subheader("Hello, I am Mncedisi Mncwabe :wave:")
     st.title("A Data Scientist From South Africa")
     st.write(
         """I've been working for over 3 years on Data Science and Analytics projects. 
