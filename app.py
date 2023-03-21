@@ -80,7 +80,7 @@ with st.container():
             Sep 2022 - present
             
             **Tools & Skills:**
-            Google Analytics · Google Data Studio · Google Cloud Platform (GCP) · Data Science · Machine Learning · Route Planning ·
+            Google Analytics · Looker Studio (Data Studio) · Google Cloud Platform (GCP) · Data Science · Machine Learning · Route Planning ·
             Data Analysis · Python · Statistics · Data Visualization · SQL · Google BigQuery · Time Series Forecasting 
             """
         )
