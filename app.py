@@ -47,20 +47,18 @@ with st.container():
 # ---- WHAT I DO ----
 with st.container():
     st.write("---")
-    left_column, middle_column , right_column = st.columns(3)
+    left_column, middle_column , right_column = st.columns([1, 1, 2])
     with left_column:
         st.header("Summary of my skillsets")
         st.subheader("Tool")
-        st.write("##")
         st.write(
             """
-            - are looking for a way to leverage the power of Python in their day-to-day work.
-            - are struggling with repetitive tasks in Excel and are looking for a way to use Python and VBA.
-            - want to learn Data Analysis & Data Science to perform meaningful and impactful analyses.
-            - are working with Excel and found themselves thinking - "there has to be a better way.
+            - Python
+            - Excel
+            - Power BI
+            - GCP
             """
         )
-        #st.write("[YouTube Channel >](https://youtube.com/c/CodingIsFun)")
     with middle_column:
         st.subheader("Estimated Hours of Usage")
         st.write(
