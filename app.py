@@ -74,6 +74,7 @@ with st.container():
             | Exponential Smoothing Models (time series prediction)   | 35                                                     | 
             | Web Scraping (Python BeautifulSoup & Selenium)          | 30                                                     |
             | Git                                                     | 15                                                     |
+            | ...list TBC                                             | 0                                                     |
  
             """
         )
