@@ -68,7 +68,7 @@ with st.container():
 # ---- EXPERIENCE ----
 with st.container():
     st.write("---")
-    st.header("My EXPERIENCE")
+    st.header("Experience")
     st.write("##")
     image_column, text_column = st.columns((1, 2))
     with image_column:
@@ -77,7 +77,7 @@ with st.container():
         st.subheader("Snr Data Scientist")
         st.write(
             """
-            Se0 2022 - present
+            Sep 2022 - present
             - Google Analytics · Google Data Studio · Google Cloud Platform (GCP) · Data Science · Machine Learning · 
             - Data Analysis · Python · Statistics · Data Visualization · SQL · Google BigQuery
             """
