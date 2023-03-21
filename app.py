@@ -63,10 +63,10 @@ with st.container():
         st.subheader("Estimated Hours of Usage")
         st.write(
             """
-          - 12
-          - 23
-          - 45
-          - 50
+          12
+          23
+          45
+          50
           """
         )              
     with right_column:
