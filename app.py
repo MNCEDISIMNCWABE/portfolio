@@ -58,7 +58,9 @@ with st.container():
             | Python (incl. pandas, numpy, scipy, sklearn, datetime)  | 1800                                                   |
             | Google Sheets, Microsoft Excel                          | 1200                                                   |
             | Supervised Learning & general Machine-Learning theory   | 700                                                    |
-            |                                                         |                                                        |
+            | Theory of Experimental Design (hypothesis testing etc   | 350                                                    | 
+            | Recommender Engines (incl Collaborative Filtering       | 100                                                    | 
+            | TensorFlow + Keras                                      | 80                                                    | 
  
             """
         )
