@@ -87,9 +87,6 @@ with st.container():
         st.markdown("[Watch Video...](https://youtu.be/TXSOitGoINE)") 
         
 with st.container():
-    st.write("---")
-    st.header("Experience")
-    st.write("##")
     image_column, text_column = st.columns((1, 2))
     with image_column:
         st.image(img_tal)
