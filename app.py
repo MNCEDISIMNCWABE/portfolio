@@ -50,15 +50,14 @@ with st.container():
     left_column, right_column = st.columns(2)
     with left_column:
         st.header("Summary of my skillsets")
-        st.write("##")
         st.write(
             """
-            Tool            Estimated Hours of Usage         
-            - Python        12
-            - Excel         20
-            - GCP           50
-            - R             60
-         
+            | Tool   | Estimated Hours of Usage |
+            | ------ | ------------------------ |
+            | Python | 12                       |
+            | Excel  | 20                       |
+            | GCP    | 50                       |
+            | R      | 60                       |
             """
         )
         st.write("[YouTube Channel >](https://youtube.com/c/CodingIsFun)")
