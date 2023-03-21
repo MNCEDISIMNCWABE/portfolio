@@ -56,11 +56,13 @@ with st.container():
             | --------------------------------------------------------|------------------------------------------------------- |
             | SQL (MS SQL Server, MySQL, Google BigQuery, PostgreSQL) | 3500                                                   |
             | Python (incl. pandas, numpy, scipy, sklearn, datetime)  | 1800                                                   |
-            | Google Sheets, Microsoft Excel                          | 1200                                                   |
-            | Supervised Learning & general Machine-Learning theory   | 700                                                    |
-            | Theory of Experimental Design (hypothesis testing etc   | 350                                                    | 
-            | Recommender Engines (incl Collaborative Filtering       | 100                                                    | 
-            | TensorFlow + Keras                                      | 80                                                    | 
+            | Google Sheets, Microsoft Excel                          | 1500                                                   |
+            | Supervised Learning                                     | 1200                                                   |
+            | Clustering algorithms (K-means, DBSCAN, hierarchical)   | 1000                                                   |
+            | Theory of Experimental Design (hypothesis testing etc)  | 350                                                    | 
+            | Recommender Engines (incl. Collaborative Filtering)     | 100                                                    | 
+            | TensorFlow + Keras                                      | 80                                                     | 
+            | Uplift Modelling                                        | 40                                                     | 
  
             """
         )
