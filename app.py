@@ -5,7 +5,7 @@ from PIL import Image
 
 
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
-st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
+st.set_page_config(page_title="Mncedisi's Webpage", page_icon=":tada:", layout="wide")
 
 
 def load_lottieurl(url):
@@ -27,6 +27,9 @@ local_css("style/style.css")
 lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
 img_contact_form = Image.open("images/yt_contact_form.png")
 img_lottie_animation = Image.open("images/yt_lottie_animation.png")
+img_loop = Image.open("images/loop.jpeg")
+img_tal = Image.open("images/tal.jpeg")
+img_mcg = Image.open("images/mcg.jpeg")
 
 # ---- HEADER SECTION ----
 with st.container():
@@ -61,7 +64,27 @@ with st.container():
         st.write("[YouTube Channel >](https://youtube.com/c/CodingIsFun)")
     with right_column:
         st_lottie(lottie_coding, height=300, key="coding")
+        
+# ---- EXPERIENCE ----
+with st.container():
+    st.write("---")
+    st.header("My EXPERIENCE")
+    st.write("##")
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+        st.image(img_loop)
+    with text_column:
+        st.subheader("Snr Data Scientist")
+        st.write(
+            """
+            Se0 2022 - present
+            - Google Analytics · Google Data Studio · Google Cloud Platform (GCP) · Data Science · Machine Learning · 
+            - Data Analysis · Python · Statistics · Data Visualization · SQL · Google BigQuery
+            """
+        )
+        st.markdown("[Watch Video...](https://youtu.be/TXSOitGoINE)") 
 
+     
 # ---- PROJECTS ----
 with st.container():
     st.write("---")
