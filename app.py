@@ -208,7 +208,21 @@ with st.container():
             """
         )
         st.markdown("[Outlier Detection...](https://github.com/MNCEDISIMNCWABE/exploring-ml-and-analytics/tree/main/Comparing%20Oulier%20Detection%20Algorithms)")
-
+        
+with st.container():
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+        st.image(img_contact_form)
+    with text_column:
+        st.subheader("Predict The Likelihood Of Someone being At Risk For Heart Disease")
+        st.write(
+            """
+           Using Machine Learning to identify people who are at risk for heart disease. This would
+           be a good indicator of people that will benefit most from health-allowance.
+            """
+        )
+        st.markdown("[Heart Disease Prediction...](https://github.com/MNCEDISIMNCWABE/exploring-ml-and-analytics/tree/main/Heart%20Disease%20Classification)")
+        
 # ---- CONTACT ----
 with st.container():
     st.write("---")
