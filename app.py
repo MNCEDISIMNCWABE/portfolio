@@ -35,6 +35,7 @@ prope = Image.open("images/prop.png")
 mult = Image.open("images/mult.png")
 out = Image.open("images/outlier.png")
 viz = Image.open("images/viz.jpg")
+ht = Image.open("images/ht.jpg")
 
 # ---- HEADER SECTION ----
 with st.container():
@@ -217,7 +218,7 @@ with st.container():
 with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
-        st.image(img_contact_form)
+        st.image(ht)
     with text_column:
         st.subheader("Predict The Likelihood Of Someone Being At Risk For Heart Disease")
         st.write(
