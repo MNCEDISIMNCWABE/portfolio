@@ -144,7 +144,7 @@ with st.container():
 # ---- PROJECTS ----
 with st.container():
     st.write("---")
-    st.header("My Projects")
+    st.header("Exploring Machine Learning and Data Analytics")
     st.write("##")
     st.write(
             """
