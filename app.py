@@ -148,7 +148,7 @@ with st.container():
     st.write("##")
     st.write(
             """
-            These are some of the projects or frameworks I've explored during my spare time.
+            These are some of the projects or frameworks I've explored during my spare time outside of my professional working environment and hours.
             """
         )
     image_column, text_column = st.columns((1, 2))
