@@ -188,7 +188,7 @@ with st.container():
         st.subheader("Multiple Time Series Forecasting")
         st.write(
             """
-            Using Light Gradient-Boosting to build multiple time series forecasting models to forecast sales of multiple store products.
+            Using Light Gradient-Boosting to forecast the sales of multiple store products.
 
             """
         )
