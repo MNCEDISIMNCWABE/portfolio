@@ -34,6 +34,7 @@ stockp = Image.open("images/original.png")
 prope = Image.open("images/prop.png")
 mult = Image.open("images/mult.png")
 out = Image.open("images/outlier.png")
+viz = Image.open("images/viz.jpg")
 
 # ---- HEADER SECTION ----
 with st.container():
@@ -230,7 +231,7 @@ with st.container():
 with st.container():
     image_column, text_column = st.columns((1, 2))
 with image_column:
-    st.image(img_contact_form)
+    st.image(viz)
 with text_column:
     st.subheader("Data Visualization")
     st.write(
