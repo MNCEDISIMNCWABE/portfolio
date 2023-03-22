@@ -30,6 +30,7 @@ img_lottie_animation = Image.open("images/yt_lottie_animation.png")
 img_loop = Image.open("images/loop.png")
 img_tal = Image.open("images/tal2.png")
 img_mcg = Image.open("images/mcg3.jpg")
+stock = Image.open("images/stock.jpg")
 
 # ---- HEADER SECTION ----
 with st.container():
@@ -153,7 +154,7 @@ with st.container():
         )
     image_column, text_column = st.columns((1, 2))
     with image_column:
-        st.image(img_lottie_animation)
+        st.image(stock)
     with text_column:
         st.subheader("Closing Stock Price Predictions App")
         st.write(
