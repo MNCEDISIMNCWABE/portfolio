@@ -222,7 +222,21 @@ with st.container():
             """
         )
         st.markdown("[Heart Disease Prediction...](https://github.com/MNCEDISIMNCWABE/exploring-ml-and-analytics/tree/main/Heart%20Disease%20Classification)") 
-       
+        
+ with st.container():
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+        st.image(img_contact_form)
+    with text_column:
+        st.subheader("Data Visualization")
+        st.write(
+            """
+           I worked on a data visualization project which was part of Maven Analytics challenge series.
+           The dataset featured 375000+ Kickstarter projects from 2009-2017, including project name, category and more.
+           The objective of the project was to generate key insights to enable investors to identify projects with higher likelihood of success.
+            """
+        )
+        st.markdown("[Data Visualization...](https://github.com/MNCEDISIMNCWABE/exploring-ml-and-analytics/tree/main/Data%20Visualization)")       
         
 # ---- CONTACT ----
 with st.container():
