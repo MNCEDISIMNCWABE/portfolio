@@ -61,6 +61,7 @@ with st.container():
             | Google Sheets, Microsoft Excel                          | 1500                                                   |
             | Supervised Learning                                     | 1200                                                   |
             | Clustering algorithms (K-means, DBSCAN, hierarchical)   | 1000                                                   |
+            | Constrained Clustering (constrained K-means)            | 800                                                    |
             | Prophet, ARIMA, SARIMA models (time series prediction)  | 800                                                    |
             | R                                                       | 600                                                    |
             | Theory of Experimental Design (hypothesis testing etc.) | 350                                                    | 
@@ -147,7 +148,7 @@ with st.container():
     st.write("##")
     st.write(
             """
-            These are some of the projects I've worked on. I explored some of them during my spare time.
+            These are some of the projects or frameworks I've explored during my spare time.
             """
         )
     image_column, text_column = st.columns((1, 2))
@@ -199,11 +200,11 @@ with st.container():
     with image_column:
         st.image(img_contact_form)
     with text_column:
-        st.subheader("How To Add A Contact Form To Your Streamlit App")
+        st.subheader("Comparison Of Outlier Detection Models ")
         st.write(
             """
-            Want to add a contact form to your Streamlit website?
-            In this video, I'm going to show you how to implement a contact form in your Streamlit app using the free service ‘Form Submit’.
+            Using PyOD to compare the detection of outliers by several models such as Histogram-based Outlier Score, K Nearest Neighbors,
+            Isolation Forest and Feature Bagging.
             """
         )
         st.markdown("[Watch Video...](https://youtu.be/FOULV9Xij_8)")
