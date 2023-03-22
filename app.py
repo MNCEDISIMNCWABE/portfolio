@@ -188,9 +188,7 @@ with st.container():
         st.subheader("Multiple Time Series Forecasting")
         st.write(
             """
-            Propensity Modelling is a method of generating a probability score on how customers do a particular action. 
-            In this exercise I explore a combination of Propensity Analysis with RFM scores (Recency, Frequency, Monetary) 
-            to predict the probability score of a customer to purchase a product after a campaign was done.
+            Using Light Gradient-Boosting to build multiple time series forecasting models to forecast sales of multiple store products.
 
             """
         )
