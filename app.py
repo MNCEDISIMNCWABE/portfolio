@@ -49,7 +49,7 @@ with st.container():
     st.write("---")
     left_column, right_column = st.columns((12,5))
     with left_column:
-        st.header("Summary of my skillsets")
+        st.header("Skillset Summary")
         st.write(
             """
             | Tool                                                    | Estimated Hours Of Usage                               |
@@ -144,7 +144,7 @@ with st.container():
 # ---- PROJECTS ----
 with st.container():
     st.write("---")
-    st.header("Exploring Machine Learning and Data Analytics")
+    st.header("Exploring Machine Learning & Data Analytics")
     st.write("##")
     st.write(
             """
