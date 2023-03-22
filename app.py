@@ -214,7 +214,7 @@ with st.container():
     with image_column:
         st.image(img_contact_form)
     with text_column:
-        st.subheader("Predict The Likelihood Of Someone being At Risk For Heart Disease")
+        st.subheader("Predict The Likelihood Of Someone Being At Risk For Heart Disease")
         st.write(
             """
            Using Machine Learning to identify people who are at risk for heart disease. This would
