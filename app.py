@@ -163,7 +163,7 @@ with st.container():
             The results are presented in the form of a table and graph with a 95% confidence interval of the predicted stock price.
             """
         )
-        st.markdown("[Watch Video...](https://sp-preds-predictions-mod-app-aqcjue.streamlit.app/)")
+        st.markdown("[Deployed Web App Link...](https://sp-preds-predictions-mod-app-aqcjue.streamlit.app/)")
 with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
