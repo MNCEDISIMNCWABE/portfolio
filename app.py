@@ -30,7 +30,7 @@ img_lottie_animation = Image.open("images/yt_lottie_animation.png")
 img_loop = Image.open("images/loop.png")
 img_tal = Image.open("images/tal2.png")
 img_mcg = Image.open("images/mcg3.jpg")
-stock = Image.open("images/stock.jpg")
+stock = Image.open("images/original.jpg")
 prope = Image.open("images/prop.png")
 
 # ---- HEADER SECTION ----
