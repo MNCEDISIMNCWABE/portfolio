@@ -31,7 +31,7 @@ img_loop = Image.open("images/loop.png")
 img_tal = Image.open("images/tal2.png")
 img_mcg = Image.open("images/mcg3.jpg")
 stock = Image.open("images/stock.jpg")
-prop = Image.open("images/prop.png")
+prope = Image.open("images/prop.png")
 
 # ---- HEADER SECTION ----
 with st.container():
@@ -170,7 +170,7 @@ with st.container():
 with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
-        st.image(prop)
+        st.image(prope)
     with text_column:
         st.subheader("Customer Purchase Propensity Modelling")
         st.write(
