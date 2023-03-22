@@ -221,7 +221,7 @@ with st.container():
            be a good indicator of people that will benefit most from health-allowance.
             """
         )
-        st.markdown("[Heart Disease Prediction...](https://github.com/MNCEDISIMNCWABE/exploring-ml-and-analytics/tree/main/Heart%20Disease%20Classification)")
+        st.markdown("[Heart Disease Prediction...](https://github.com/MNCEDISIMNCWABE/exploring-ml-and-analytics/tree/main/Heart%20Disease%20Classification)") 
         
  with st.container():
     image_column, text_column = st.columns((1, 2))
