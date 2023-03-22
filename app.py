@@ -33,6 +33,7 @@ img_mcg = Image.open("images/mcg3.jpg")
 stockp = Image.open("images/original.png")
 prope = Image.open("images/prop.png")
 mult = Image.open("images/mult.png")
+out = Image.open("images/out.png")
 
 # ---- HEADER SECTION ----
 with st.container():
@@ -201,7 +202,7 @@ with st.container():
 with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
-        st.image(img_contact_form)
+        st.image(out)
     with text_column:
         st.subheader("Comparison Of Outlier Detection Models ")
         st.write(
