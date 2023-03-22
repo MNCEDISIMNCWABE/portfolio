@@ -154,15 +154,16 @@ with st.container():
     with image_column:
         st.image(img_lottie_animation)
     with text_column:
-        st.subheader("Integrate Lottie Animations Inside Your Streamlit App")
+        st.subheader("Closing Stock Price Predictions App")
         st.write(
             """
-            Learn how to use Lottie Files in Streamlit!
-            Animations make our web app more engaging and fun, and Lottie Files are the easiest way to do it!
-            In this tutorial, I'll show you exactly how to do it
+            The app allows users to easily type a company's ticker symbol as listed on Yahoo Finance, the date range 
+            and then the app will run that through the model to predict the closing stock price for the selected date(s). 
+            The model is trained and tested on the historical stock price data from Yahoo Finance. 
+            The results are presented in the form of a table and graph with a 95% confidence interval of the predicted stock price.
             """
         )
-        st.markdown("[Watch Video...](https://youtu.be/TXSOitGoINE)")
+        st.markdown("[Watch Video...](https://sp-preds-predictions-mod-app-aqcjue.streamlit.app/)")
 with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
