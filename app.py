@@ -157,8 +157,8 @@ with st.container():
         st.subheader("Closing Stock Price Predictions App")
         st.write(
             """
-            The app allows users to easily type a company's ticker symbol as listed on Yahoo Finance, the date range 
-            and then the app will run that through the model to predict the closing stock price for the selected date(s). 
+            The app allows users to easily type a company's ticker symbol, as listed on Yahoo Finance, and the date range 
+            then the app will run that through the model to predict the closing stock price for the selected date(s). 
             The model is trained and tested on the historical stock price data from Yahoo Finance.
             """
         )
