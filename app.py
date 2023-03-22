@@ -37,8 +37,8 @@ with st.container():
     st.title("A Data Scientist From South Africa")
     st.write(
         """I've been working for over 3 years on Data Science and Analytics projects. 
-           I'm passionate about learning new concepts, especially in Data Science or Analytics space to continuously build on my previous knowledge.
-           My professional interests are using my toolbox of programming, machine learning, statistics, and probability to solve challenging problems.
+           I'm passionate about learning new concepts to continuously build on my previous knowledge.
+           My professional interests are using my toolbox of programming, machine learning, statistics and probability to solve challenging problems.
            These problems can be theoretical or practical in nature.
            """
     )
