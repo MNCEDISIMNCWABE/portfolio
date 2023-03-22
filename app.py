@@ -234,6 +234,7 @@ with text_column:
        I worked on a data visualization project which was part of Maven Analytics challenge series.
        The dataset featured 375000+ Kickstarter projects from 2009-2017, including project name, category and more.
        The objective of the project was to generate key insights to enable investors to identify projects with higher likelihood of success.
+       Link below contains some more data visualization work.
         """
     )
     st.markdown("[Data Visualization...](https://github.com/MNCEDISIMNCWABE/exploring-ml-and-analytics/tree/main/Data%20Visualization)")       
