@@ -87,7 +87,7 @@ with st.container():
         )
         #st.write("[YouTube Channel >](https://youtube.com/c/CodingIsFun)")
     with right_column:
-        st_lottie(lottie_coding, height=400, key="coding")
+        st_lottie(lottie_coding, height=500, key="coding")
         
 # ---- EXPERIENCE ----
 with st.container():
