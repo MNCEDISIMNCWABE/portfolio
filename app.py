@@ -162,23 +162,25 @@ with st.container():
             The model is trained and tested on the historical stock price data from Yahoo Finance.
             """
         )
-        st.markdown("[Deployed Web App Link...](https://sp-preds-predictions-mod-app-aqcjue.streamlit.app/)")
-        
- with st.container():
+        st.markdown("[Deployed Web App Link...](https://sp-preds-predictions-mod-app-aqcjue.streamlit.app/)")         
+
+with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
         st.image(img_contact_form)
     with text_column:
-        st.subheader("Customer Purchase Propensity Modelling")
+        st.subheader("How To Add A Contact Form To Your Streamlit App")
         st.write(
             """
-           Propensity Modelling is a method of generating a probability score on how customers do a particular action. 
+            Propensity Modelling is a method of generating a probability score on how customers do a particular action. 
            In this exercise I explore a combination of Propensity Analysis with RFM scores (Recency, Frequency, Monetary) 
            to predict the probability score of a customer buying a product after a campaign was done.
+
             """
         )
-        st.markdown("[Propensity Modelling...](https://github.com/MNCEDISIMNCWABE/exploring-ml-and-analytics/tree/main/Propensity%20Modelling)")                   
-              
+        st.markdown("[Watch Video...](https://github.com/MNCEDISIMNCWABE/exploring-ml-and-analytics/tree/main/Propensity%20Modelling)")        
+        
+        
 with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
