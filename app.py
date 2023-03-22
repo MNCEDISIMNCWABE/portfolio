@@ -108,7 +108,7 @@ with st.container():
             Data Analysis · Python · Statistics · Data Visualization · SQL · Google BigQuery · Time Series Forecasting 
             """
         )
-        st.markdown("[Watch Video...](https://youtu.be/TXSOitGoINE)") 
+        #st.markdown("[Watch Video...](link-here)") 
         
 with st.container():
     image_column, text_column = st.columns((1, 2))
@@ -126,7 +126,7 @@ with st.container():
             MS Power BI · Google Slides · Google Sheets
             """
         )
-        st.markdown("[Watch Video...](https://youtu.be/TXSOitGoINE)")  
+        #st.markdown("[Watch Video...](link-here)")  
         
 with st.container():
     image_column, text_column = st.columns((1, 2))
@@ -143,7 +143,7 @@ with st.container():
             Data Visualization · MS Power Automate · Speech Analytics · Nexidia Analytics
             """
         )
-        st.markdown("[Watch Video...](https://youtu.be/TXSOitGoINE)")   
+        #st.markdown("[Watch Video...](link-here)")   
   
 
      
