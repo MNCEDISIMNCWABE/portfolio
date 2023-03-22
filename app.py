@@ -174,7 +174,7 @@ with st.container():
             """
             Propensity Modelling is a method of generating a probability score on how customers do a particular action. 
             In this exercise I explore a combination of Propensity Analysis with RFM scores (Recency, Frequency, Monetary) 
-            to predict the probability score of a customer buying a product after a campaign was done.
+            to predict the probability score of a customer to purchase a product after a campaign was done.
 
             """
         )
