@@ -207,7 +207,7 @@ with st.container():
             Isolation Forest and Feature Bagging.
             """
         )
-        st.markdown("[Watch Video...](https://youtu.be/FOULV9Xij_8)")
+        st.markdown("[Outlier Detection...](https://github.com/MNCEDISIMNCWABE/exploring-ml-and-analytics/tree/main/Comparing%20Oulier%20Detection%20Algorithms)")
 
 # ---- CONTACT ----
 with st.container():
