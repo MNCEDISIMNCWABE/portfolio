@@ -32,6 +32,7 @@ img_tal = Image.open("images/tal2.png")
 img_mcg = Image.open("images/mcg3.jpg")
 stockp = Image.open("images/original.png")
 prope = Image.open("images/prop.png")
+mult = Image.open("images/mult.png")
 
 # ---- HEADER SECTION ----
 with st.container():
@@ -186,7 +187,7 @@ with st.container():
 with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
-        st.image(img_contact_form)
+        st.image(mult)
     with text_column:
         st.subheader("Multiple Time Series Forecasting")
         st.write(
