@@ -63,7 +63,7 @@ with st.container():
             | Clustering algorithms (K-means, DBSCAN, hierarchical)   | 1000                                                   |
             | Constrained Clustering (constrained K-means)            | 800                                                    |
             | Prophet, ARIMA, SARIMA models (time series prediction)  | 800                                                    |
-            | R                                                       | 600                                                    |
+            | R (R-Studio, R-GUI)                                     | 600                                                    |
             | Theory of Experimental Design (hypothesis testing etc.) | 350                                                    | 
             | SAS                                                     | 200                                                    | 
             | Recommender Engines (incl. Collaborative Filtering)     | 105                                                    | 
