@@ -169,16 +169,16 @@ with st.container():
     with image_column:
         st.image(img_contact_form)
     with text_column:
-        st.subheader("How To Add A Contact Form To Your Streamlit App")
+        st.subheader("Customer Purchase Propensity Modelling")
         st.write(
             """
             Propensity Modelling is a method of generating a probability score on how customers do a particular action. 
-           In this exercise I explore a combination of Propensity Analysis with RFM scores (Recency, Frequency, Monetary) 
-           to predict the probability score of a customer buying a product after a campaign was done.
+            In this exercise I explore a combination of Propensity Analysis with RFM scores (Recency, Frequency, Monetary) 
+            to predict the probability score of a customer buying a product after a campaign was done.
 
             """
         )
-        st.markdown("[Watch Video...](https://github.com/MNCEDISIMNCWABE/exploring-ml-and-analytics/tree/main/Propensity%20Modelling)")        
+        st.markdown("[Propensity Modelling...](https://github.com/MNCEDISIMNCWABE/exploring-ml-and-analytics/tree/main/Propensity%20Modelling)")        
         
         
 with st.container():
