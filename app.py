@@ -33,7 +33,7 @@ img_mcg = Image.open("images/mcg3.jpg")
 stockp = Image.open("images/original.png")
 prope = Image.open("images/prop.png")
 mult = Image.open("images/mult.png")
-out = Image.open("images/out.png")
+out = Image.open("images/outlier.png")
 
 # ---- HEADER SECTION ----
 with st.container():
