@@ -147,7 +147,7 @@ with st.container():
     st.write("##")
     st.write(
             """
-            These are some of the projects I've worked on. Some of these I explored during my spare time.
+            These are some of the projects I've worked on. I explored some of them during my spare time.
             """
         )
     image_column, text_column = st.columns((1, 2))
